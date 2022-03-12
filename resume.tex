@@ -1,0 +1,93 @@
+% NOTE: This is very inspired by http://www.toofishes.net/blog/latex-resume-follow-up/
+
+\documentclass[10pt,letterpaper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[stretch=10]{microtype}
+\usepackage{hyperref}
+\usepackage{tgpagella}
+\usepackage{enumitem}
+\usepackage{indentfirst}
+\pagestyle{empty}
+
+\begin{document}
+ 
+% <header>
+\begin{center}
+{\huge \textbf{Giorgi Dogadze}}
+
+
+\vspace{1em}
+
+\href{mailto:g.dogadze@gmail.com}{g.dogadze@gmail.com} 
+\ \ \textbullet \ \ 
+\href{https://github.com/giorgi-dogadze}{github.com/giorgi-dogadze} 
+\ \ \textbullet \ \ 
+\href{https://www.linkedin.com/in/giorgi-dogadze-291387150/}{linkedin.com/in/giorgi-dogadze-291387150/}
+\newline
+\ \ \textbullet \ \ 
++995 599 93 29 67\end{center}
+
+% </header>
+
+% <work-experience>
+\hrule
+\vspace{-1.0em}
+\subsection*{Work Experience}
+  \begin{itemize}
+    \item[]
+    {\textbf{Temi Cloud} \hfill
+      \textbf{Tbilisi, Georgia}}
+    \\
+    {\emph{Software Engineer} \hfill \emph{February 2021 - Present}}
+
+    \begin{itemize}[label=\textbullet]
+    \itemsep0.5em
+    \item Maintaining a React | TypeScript based component library from fully custom Figma designs (90 core components, 300+ unique components, 60K+ lines of code)
+    \item Privately refactor Storybook pipeline, add more than 200 missing stories to document all components.
+    \item Collaborating with Product Owner and Scrum Muster on a daily basis
+    \item Reviewing code of the other developers in the team.
+    \item Developing an event-driven backend using Nest.js | Node.js
+    \item Maintain and Create new Unit tests for every endpoint and function using Jest
+    \item Using Next.js for server-side rendering.
+    \item Languages: JavaScript, TypeScript, SQL
+    \item Technologies: React.js, Node.js, NestJS, Next.js, PostgreSQL, TypeOrm, Jest, Docker, Git | Github.
+    \end{itemize}
+  
+\end{itemize}
+% </work-experience>
+
+% <education>
+\hrule
+\vspace{-1.0em}
+\subsection*{Education}
+  \begin{itemize}
+    \parskip=-1em
+      \vspace{0.05em}
+
+    \item[]
+    {\textbf{Tbilisi State University}}
+     \hfill
+     \textbf{Tbilisi, Georgia}
+    \\
+    {\emph{Undergraduate Computer Science GPA: 3.81}
+     \hfill
+     \emph{2018 - 2022}}
+  \end{itemize}
+% </education>
+
+% <skills>
+\hrule
+\vspace{-1.0em}
+\subsection*{Skills}
+\begin{itemize}
+  \parskip=-0.5em
+  \vspace{0.05em}
+  \item[] \textbf{Languages:} Georgia, English B2, Russian
+  \vspace{0.5em}
+  \item[] \textbf{Tech Stack:} JavaScript, Typescript, React, Node.js, NestJS, Next.js, SQL, Matlab, Haskell, C++
+\end{itemize}
+% </skills>
+
+\end{document}
